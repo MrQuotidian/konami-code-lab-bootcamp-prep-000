@@ -4,6 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
+    console.log(key)
 
     if (key === code[index]) {
       index++;
